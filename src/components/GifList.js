@@ -6,9 +6,9 @@ export default class GifList extends React.Component {
     render(){
         return (
             <ul>
-                <li>{this.props.url1}</li>
-                <li>{this.props.url2}</li>
-                <li>{this.props.url3}</li>
+                <li><img src={this.props.url1} alt="first"></img></li>
+                <li><img src={this.props.url2} alt="second"></img></li>
+                <li><img src={this.props.url3} alt="third"></img></li>
             </ul>
         )
     }

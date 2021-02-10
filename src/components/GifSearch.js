@@ -15,7 +15,6 @@ export default class GifSearch extends React.Component{
     handleSubmit = event =>{
         event.preventDefault()
         this.props.updateParentState(this.state.searchedTerm)
-
     }
 
     render(){
